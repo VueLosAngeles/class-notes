@@ -1,3 +1,4 @@
+# Class notes 4-19-18
 ## Homework was Section 5 - Understanding the VueJS Instance
 + SPA -  Single Page App
 + PWA - Progressive Web App
