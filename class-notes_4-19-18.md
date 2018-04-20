@@ -1,5 +1,3 @@
-https://gist.github.com/jendiamond/ac7ef0fb43e3505b5515f8dc19b8aa88#file-notes_4-19-18-md
-
 ## Homework was Section 5 - Understanding the VueJS Instance
 + SPA -  Single Page App
 + PWA - Progressive Web App
@@ -48,4 +46,38 @@ https://vuejs.org/v2/guide/reactivity.html
 https://stackoverflow.com/questions/40871513/using-computed-property-setter-and-getter-to-update-data-properties
 
 https://codeburst.io/vuex-getters-are-great-but-dont-overuse-them-9c946689b414
+
+## Don't use Ref!
+
+### mount
+infrequent  
++ https://vuejs.org/v2/api/
++ https://vuejs.org/v2/guide/instance.html
++ https://stackoverflow.com/questions/46831452/difference-between-mount-and-el-vue-js?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+### template
+DON'T USE
+```
+new Vue {
+ el: #app3,
+ template: `<h1>`
+}
+```
+
+### Component Syntax
+Vue.component(<name-of-component>, template:`<h1>Jen</h1>`)
+
+Vue.component
+
+### Life Cycle Hooks 
+a function that runs within a specific time frame  
+Each Vue instance goes through a series of initialization steps when it’s created - for example, it needs to set up data observation, compile the template, mount the instance to the DOM, and update the DOM when data changes. Along the way, it also runs functions called lifecycle hooks, giving users the opportunity to add their own code at specific stages.  
+
++ Create 
++ Mount 
++ Update 
++ Destroy
+
++ https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
++ https://alligator.io/vuejs/component-lifecycle/
 
