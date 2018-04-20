@@ -1,4 +1,3 @@
-# Class notes 4-19-18
 ## Homework was Section 5 - Understanding the VueJS Instance
 + SPA -  Single Page App
 + PWA - Progressive Web App
@@ -82,3 +81,19 @@ Each Vue instance goes through a series of initialization steps when it’s crea
 + https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
 + https://alligator.io/vuejs/component-lifecycle/
 
+---
+
+## Vue CLI
+
+install globally  
+github.com/vue/vue-cli
+
+sudo npm install -g @vue/cli
+
+!!
+
+@ - part of the npm ecosystem
+
+https://en.wikipedia.org/wiki/Command-line_interface
+
+vue create jenjen
