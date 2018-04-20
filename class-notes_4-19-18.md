@@ -8,7 +8,6 @@ https://codingexplained.com/coding/front-end/vue-js/proxying
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
 
-Terminology
 
 handler  
     Placeholder object which contains traps.
@@ -83,7 +82,6 @@ Each Vue instance goes through a series of initialization steps when it’s crea
 
 ---
 
-## Vue CLI
 
 install globally  
 github.com/vue/vue-cli
@@ -92,8 +90,16 @@ sudo npm install -g @vue/cli
 
 !!
 
-@ - part of the npm ecosystem
+#### @ - part of the npm ecosystem
 
-https://en.wikipedia.org/wiki/Command-line_interface
+### command line interface
+A command line interface (CLI) is a type of human-computer interface (i.e., a way for humans to interact with computers) that relies solely on textual input and output. That is, the entire display screen, or the currently active portion of it, shows only characters (and no images), and input is usually performed entirely with a keyboard.
+
+The CLI gets its name from the fact that it is an interface which contains command lines. A command line is a space on the display screen in which commands (i.e., instructions telling a computer to do something) are typed in by the user. Pressing the ENTER key after typing in a command causes that command to be passed to the shell. A shell, also referred to as a command interpreter, is a program that provides the CLI as well as reads commands that are typed on a keyboard and then executes (i.e., runs) them. The results of executing many, but not all, commands are also shown on the command line.
+
+CLIs stand in sharp contrast to graphical user interfaces (GUIs), the other main type of human-computer interface. GUIs feature the use of graphic images, including windows, icons and menus. These objects are manipulated by a mouse (and can usually be manipulated to a limited extent by a keyboard as well). 
++ https://en.wikipedia.org/wiki/Command-line_interface  
++ https://www.computerhope.com/jargon/c/commandi.htm  
++ http://www.linfo.org/command_line_interface.html
 
 vue create jenjen
